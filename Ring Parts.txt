@@ -5,7 +5,7 @@ local SoundService = game:GetService("SoundService")
 local StarterGui = game:GetService("StarterGui")
 local HttpService = game:GetService("HttpService")
 
-local LocalPlayer = Players.LocalPlayerzz
+local LocalPlayer = Players.LocalPlayer
 
 -- Sound Effects
 local function playSound(soundId)
@@ -672,4 +672,5 @@ TextButton1.Active = true
 
 TextButton1.MouseButton1Click:Connect(function() 
 loadstring(game:HttpGet("https://pastebin.com/raw/ySHJdZpb",true))()
+
 end)
